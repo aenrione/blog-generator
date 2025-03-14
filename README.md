@@ -6,6 +6,8 @@ The model currently used is `gpt-3.5-turbo`|`gpt-4` from OpenAI.
 
 The idea is to help people who have a hard time starting a blog post or need some inspiration to write about a specific topic. The format is in `markdown` so it can be easily imported to a blog platform like [`Hugo`](https://gohugo.io/).
 
+![Demo](docs/files/blog_generator_demo.gif)
+
 ## Requirements
 - Python 3.8+
 - OpenAI API key
