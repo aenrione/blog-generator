@@ -1,0 +1,10 @@
+langchain
+langchain_openai
+python-dotenv
+requests
+beautifulsoup4
+markdown
+unstructured
+langchain_community
+
+streamlit
