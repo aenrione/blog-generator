@@ -31,7 +31,7 @@ Traduce el siguiente artículo de blog del español al {target_language}.
 Mantén el mismo formato, estilo y tono, pero asegúrate de que la traducción suene natural en el idioma de destino.
 
 Artículo en español:
-{spanish_content}
+{original_content}
 
 Traducción al {target_language}:
 """

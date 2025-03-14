@@ -40,9 +40,9 @@ def generate_blog(topic, samples, word_count, suggestions=None, model=DEFAULT_GP
 
 def translate_content(content, target_language, model=DEFAULT_GPT_MODEL):
     """Translate content to the target language."""
-    template = TRANLATION_TEMPLATE.format(target_language=target_language)
-    chain = create_llm_chain(template, model=model, temp=0.3, variables=["spanish_content"])
-    return chain.run(spanish_content=content)
+    template = TRANLATION_TEMPLATE.format(target_language=target_language, original_content=content)
+    chain = create_llm_chain(template, model=model, temp=0.3, variables=["original_content"])
+    return chain.run(original_content=content)
 
 
 
